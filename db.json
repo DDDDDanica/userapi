@@ -1,14 +1,7 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "users": [
+    { "id": 1, "fullName": "Ryder Liesel", "email": "ryder.liesel@gmail.com", "companyName": "Ryder Liesel", "roles": ["voyage:read", "nomination:create"], "tenantIds":[1, 2, 3] },
+    { "id": 2, "fullName": "Allan Medea", "email": "allan.medea@gmail.com", "companyName": "", "roles": ["voyage:read", "nomination:create"], "tenantIds":[3] },
+    { "id": 3, "fullName": "Karma Kristopher", "email": "karma@gmail.com", "companyName": "Karma Kristopher", "roles": ["nomination:create"], "tenantIds":[]},
+  ]
 }
